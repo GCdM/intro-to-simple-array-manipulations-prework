@@ -95,7 +95,6 @@ describe "#using_concat" do
    end
 
    it "increases the length of the first array" do 
-    using_concat(@my_favorite_things, more_favs)
     expect(@my_favorite_things.length).to be > 2
    end
 end
