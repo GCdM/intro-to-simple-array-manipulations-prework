@@ -24,7 +24,7 @@ end
 
 def using_concat(array1, array2)
   array2.each do |x|
-    array1.concat!(x)
+    array1.concat(x)
   end
 end
 
